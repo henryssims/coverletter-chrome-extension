@@ -1,0 +1,1 @@
+# coverletter-chrome-extension
