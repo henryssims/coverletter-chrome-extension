@@ -37,7 +37,7 @@ function Generator({ setPage, resume, openAIKey }) {
                 <button onClick={() => generate()} className= "border-2 border-solid border-blue-500 text-blue-500 text-lg font-bold rounded-md px-3 py-2 hover:text-white hover:bg-blue-500">
                     {isLoading ? 'Generating...' : 'Generate'}
                 </button>
-                <h2 className="text-2xl font-bold">LinkedIn Cover Letter Generator</h2>
+                <h2 className="text-2xl font-bold">LockedIn</h2>
                 <button 
                     onClick={() => {
                         setPage(ROUTES.PROFILE);
@@ -51,7 +51,7 @@ function Generator({ setPage, resume, openAIKey }) {
                 <textarea 
                     rows={12}
                     className="w-full"
-                    placeholder="Generated cover letter"
+                    placeholder="Generated Cover Letter"
                     value={coverLetter}
                 />
             </div>

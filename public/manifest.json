@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "LinkedIn Cover Letter Generator",
+  "name": "LockedIn",
   "version": "1.0.0",
-  "description": "A Chrome extension to generate cover letters using ChatGPT API.",
+  "description": "Generates cover letters for any LinkedIn job posting using the ChatGPT API.",
   "permissions": ["activeTab", "storage", "scripting"],
   "icons": {
     "16": "icon.png",
